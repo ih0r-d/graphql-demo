@@ -21,7 +21,13 @@ spring:
     show-sql: true
 
 ### Config GraphQL
+
+graphql:
+  servlet:
+    enabled: true
+    mapping: /api/v1/graphql
+
 graphiql:
   enabled: true
-  endpoint: /graphql
+  endpoint: /api/v1/graphql
   mapping: /graphiql

@@ -1,0 +1,21 @@
+schema {
+    query: EntryPoint
+}
+
+type EntryPoint {
+    post(id: Int): Post
+}
+
+type Post {
+    id: Int!
+    title: String!
+    description: String!
+    content: String!
+    comments:[Comment]!
+}
+
+type Comment {
+    text: String!
+}
+
+
