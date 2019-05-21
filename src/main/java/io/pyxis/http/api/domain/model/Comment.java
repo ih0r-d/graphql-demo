@@ -1,4 +1,4 @@
-package io.pyxis.domain.model;
+package io.pyxis.http.api.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIdentityReference;

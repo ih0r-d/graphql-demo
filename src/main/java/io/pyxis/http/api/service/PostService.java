@@ -1,7 +1,7 @@
-package io.pyxis.service;
+package io.pyxis.http.api.service;
 
-import io.pyxis.domain.model.Post;
-import io.pyxis.web.dto.PostRequestDto;
+import io.pyxis.http.api.domain.model.Post;
+import io.pyxis.http.api.web.dto.PostRequestDto;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

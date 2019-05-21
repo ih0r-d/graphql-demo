@@ -1,4 +1,4 @@
-package io.pyxis.domain.model;
+package io.pyxis.http.api.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;

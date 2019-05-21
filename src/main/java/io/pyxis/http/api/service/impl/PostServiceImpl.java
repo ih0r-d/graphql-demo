@@ -1,11 +1,11 @@
-package io.pyxis.service.impl;
+package io.pyxis.http.api.service.impl;
 
-import io.pyxis.domain.model.Post;
-import io.pyxis.domain.repository.CommentRepository;
-import io.pyxis.domain.repository.PostRepository;
-import io.pyxis.exception.ResourceNotFoundException;
-import io.pyxis.service.PostService;
-import io.pyxis.web.dto.PostRequestDto;
+import io.pyxis.http.api.domain.model.Post;
+import io.pyxis.http.api.domain.repository.CommentRepository;
+import io.pyxis.http.api.domain.repository.PostRepository;
+import io.pyxis.http.api.exception.ResourceNotFoundException;
+import io.pyxis.http.api.service.PostService;
+import io.pyxis.http.api.web.dto.PostRequestDto;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

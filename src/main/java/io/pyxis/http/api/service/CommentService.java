@@ -1,6 +1,6 @@
-package io.pyxis.service;
+package io.pyxis.http.api.service;
 
-import io.pyxis.domain.model.Comment;
+import io.pyxis.http.api.domain.model.Comment;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;

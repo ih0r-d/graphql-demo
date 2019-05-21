@@ -1,4 +1,4 @@
-package io.pyxis.web.dto;
+package io.pyxis.http.api.web.dto;
 
 import lombok.Data;
 

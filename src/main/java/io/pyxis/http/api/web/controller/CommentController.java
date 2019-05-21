@@ -1,7 +1,7 @@
-package io.pyxis.web.controller;
+package io.pyxis.http.api.web.controller;
 
-import io.pyxis.domain.model.Comment;
-import io.pyxis.service.CommentService;
+import io.pyxis.http.api.domain.model.Comment;
+import io.pyxis.http.api.service.CommentService;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

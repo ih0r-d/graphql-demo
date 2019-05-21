@@ -1,8 +1,8 @@
-package io.pyxis.web.controller;
+package io.pyxis.http.api.web.controller;
 
-import io.pyxis.domain.model.Post;
-import io.pyxis.service.PostService;
-import io.pyxis.web.dto.PostRequestDto;
+import io.pyxis.http.api.domain.model.Post;
+import io.pyxis.http.api.service.PostService;
+import io.pyxis.http.api.web.dto.PostRequestDto;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
